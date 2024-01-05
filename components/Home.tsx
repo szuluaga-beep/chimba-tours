@@ -40,7 +40,7 @@ export const Home = () => {
           </p>
         </div>
 
-        <div className='w-2/4 h-96 mt-1'>
+        <div className='w-full sm:w-2/4 h-96 mt-1 px-2'>
 
           <Swiper
             spaceBetween={30}
