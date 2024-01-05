@@ -46,10 +46,10 @@ const Navbar = () => {
                                 ))
                             }
                         </div>
-                        <button className='flex h-10 tracking-wide
+                        <a href='https://api.whatsapp.com/send/?phone=573023698461&text&type=phone_number&app_absent=0' target='_blank' className='flex h-10 tracking-wide
                             uppercase items-center rounded-lg bg-primary text-black px-4 text-sm font-bold  transition-colors hover:bg-black hover:text-primary'>
                             Reservar
-                        </button>
+                        </a>
                     </div>
                     {/* secondary */}
                     <div className="flex gap-6">
@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <MoonIcon className="h-6 w-6" />
                                 <SunIcon className="h-6 w-6" />
                             </div>
-                            
+
                         </div>
                         {/* Mobile navigation toggle */}
                         <div className="lg:hidden flex items-center">
