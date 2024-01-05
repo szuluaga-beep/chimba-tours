@@ -1,10 +1,11 @@
 import { Home } from '@/components'
-import Image from 'next/image'
+import Tours from '@/components/Tours'
 
 export default function IndexPage() {
   return (
     <div>
       <Home />
+      <Tours />
     </div>
   )
 }

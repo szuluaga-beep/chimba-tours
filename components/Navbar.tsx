@@ -78,7 +78,7 @@ const Navbar = () => {
                     <div className="flex flex-col gap-8 font-bold tracking-wider">
                         {
                             navigation.map((navigation, index) => (
-                                <a key={index} href='#'>
+                                <a key={index} href={navigation.href} onClick={(prev) => setToggleMenu(!prev)}>
                                     {navigation.name}
                                 </a>
                             ))
