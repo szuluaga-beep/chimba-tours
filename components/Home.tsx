@@ -1,16 +1,15 @@
 'use client'
 import Image from 'next/image';
 import React from 'react'
-import { Slide } from 'react-slideshow-image';
-import "react-slideshow-image/dist/styles.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const divStyle = {
-  backgroundSize: 'contain',
-  backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
-  height: '500px',
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-}
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const slideImages = [
   {
@@ -41,27 +40,39 @@ export const Home = () => {
           </p>
         </div>
 
+        <div className='w-2/4 h-96 mt-1'>
 
-        <div className="slide-container w-full h-96 sm:w-3/4">
-          <Slide
-            duration={7000}
-            // indicators
-            easing="ease"
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+
+            }}
+            pagination={{
+              clickable: true,
+              
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper rounded-lg"
           >
-            {slideImages.map((slideImage, index) => {
+            {
+              slideImages.map((image, index) => (
 
-              const url = slideImage.url
-              return (
-                <div key={index}>
-                  <div style={{ ...divStyle, 'backgroundImage': `url(${url})` }}>
-
-                  </div>
-                </div>
-              )
+                <SwiperSlide key={index}>
+                  <Image
+                    src={image.url}
+                    alt={image.caption}
+                    width={1080}
+                    height={500}
+                  />
+                </SwiperSlide>
+              ))
             }
 
-            )}
-          </Slide>
+          </Swiper>
         </div>
       </div>
     </main>
