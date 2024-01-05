@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Chimba tours',
   description: 'Explora el arte urbano vibrante y las historias transformadoras de Comuna 13 con Chimba Tours  ¡Vive la explosión de color, conoce artistas locales y sumérgete en la resiliencia de Medellín!',
   keywords: ["Comuna 13 graffiti tour", "Medellin street art", "urban art experiences,"],
-
+  
 }
 
 export default function RootLayout({

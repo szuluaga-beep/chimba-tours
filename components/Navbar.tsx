@@ -10,7 +10,7 @@ import Image from 'next/image'
 import logo from '@/public/Logo.png'
 
 const navigation = [
-    { name: 'Inicio', href: '#', current: true },
+    { name: 'Inicio', href: '#inicio', current: true },
     { name: 'Tours', href: '#', current: false },
     { name: 'Testimonios', href: '#', current: false },
     { name: 'Contacto', href: '#', current: false },
@@ -19,7 +19,7 @@ const navigation = [
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
-        <nav>
+        <nav className='bg-gray-50 border-b-2 border-gray-100'>
             <div className="w-full mx-auto">
                 <div className="flex w-full justify-around gap-2 lg:block lg:px-4">
                     {/* Primary menu and logo */}
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <div className="hidden lg:flex gap-8 ">
                             {
                                 navigation.map((navigation, index) => (
-                                    <a key={index} href='#'>
+                                    <a key={index} href={navigation.href} className='font-extrabold text-lg hover:text-primary'>
                                         {navigation.name}
                                     </a>
                                 ))
