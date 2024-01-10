@@ -35,9 +35,9 @@ export const Home = () => {
           <p className='font-extrabold text-lg sm:text-3xl uppercase text-center tracking-wide'>
             Ven y <span className='text-primary'>conoce</span> el graffi tour, donde podrás compartir en familia y aprender sobre la tranformación de la Comuna 13.
           </p>
-          <p className='font-extrabold text-lg sm:text-3xl uppercase text-center tracking-wide'>
+          {/* <p className='font-extrabold text-lg sm:text-3xl uppercase text-center tracking-wide'>
             Ven a tomarte muchas fotos llenas de color, en hermosos murales hechos por <span className='text-primary'>artistas</span> locales.
-          </p>
+          </p> */}
         </div>
 
         <div className='w-full sm:w-2/4 h-96 mt-1 px-2'>
