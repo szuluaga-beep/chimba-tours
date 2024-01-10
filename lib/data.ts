@@ -1,4 +1,6 @@
-export const dataTours = [
+import { ITours } from "@/interfaces/ITours";
+
+export const dataTours:ITours[] = [
     {
         id: 1,
         name: "Graffi Tour",
@@ -8,7 +10,7 @@ export const dataTours = [
         included: [
 
             {
-                idInclude: 1,
+                idIncluded: 1,
                 nameIncluded: "Hidratación"
             },
             {
@@ -40,7 +42,7 @@ export const dataTours = [
         included: [
 
             {
-                idInclude: 1,
+                idIncluded: 1,
                 nameIncluded: "Hidratación"
             },
             {
