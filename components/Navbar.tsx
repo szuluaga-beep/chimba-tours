@@ -10,10 +10,9 @@ import Image from 'next/image'
 import logo from '@/public/Logo.png'
 
 const navigation = [
-    { name: 'Inicio', href: '#inicio', current: true },
-    { name: 'Tours', href: '#', current: false },
-    { name: 'Testimonios', href: '#', current: false },
-    { name: 'Contacto', href: '#', current: false },
+    { name: 'Tours', href: '#tours', current: false },
+    { name: 'Testimonios', href: '#testimonios', current: false },
+    { name: 'Contacto', href: '#contacto', current: false },
 ]
 
 const Navbar = () => {

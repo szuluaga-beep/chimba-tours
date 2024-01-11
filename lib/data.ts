@@ -1,6 +1,7 @@
 import { ITours } from "@/interfaces/ITours";
+import { IUser } from "@/interfaces/IUsers";
 
-export const dataTours:ITours[] = [
+export const dataTours: ITours[] = [
     {
         id: 1,
         name: "Graffi Tour",
@@ -64,5 +65,29 @@ export const dataTours:ITours[] = [
             },
 
         ]
+    },
+]
+
+export const users: IUser[] = [
+    {
+        id: 1,
+        avatar: "Santiago.png",
+        name: "Santiago Perez",
+        country:"United States",
+        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
+    },
+    {
+        id: 2,
+        avatar: "Maria.png",
+        name: "Maria Costa",
+        country:"Perú",
+        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
+    },
+    {
+        id: 3,
+        avatar: "Vanesa.png",
+        name: "Vanesa Upegui",
+        country:"Colombia",
+        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
     },
 ]

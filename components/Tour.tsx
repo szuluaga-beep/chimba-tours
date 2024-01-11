@@ -9,7 +9,7 @@ interface Props {
 
 const Tour: FC<Props> = ({ tour }) => {
   return (
-    <div key={tour.id} className='w-full shadow-2xl rounded-lg p-3  cursor-pointer'>
+    <div key={tour.id} className='w-full shadow-2xl rounded-lg p-3  cursor-pointer' id='tours'>
       <Image
         className='rounded-lg hover:'
         src={`/images/${tour.image}`}
