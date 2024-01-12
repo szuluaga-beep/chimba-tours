@@ -1,5 +1,5 @@
 ## Webpage
-[Link]([https://linktodocumentation](https://www.chimbatours.com/)https://www.chimbatours.com/)
+[Link](https://www.chimbatours.com/)
 
 ## Stack
 
