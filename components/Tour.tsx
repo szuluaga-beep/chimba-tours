@@ -44,8 +44,8 @@ const Tour: FC<Props> = ({ tour }) => {
       <div className='my-2 flex gap-2 flex-col items-center md:flex-row justify-between p-4'>
         <div className='flex items-center gap-2 '>
 
-          <span className='mr-2 uppercase font-extrabold'>Precio:</span>
-          <p className='font-extrabold text-xl md:text-2xl'>{`$ ${tour.price.toLocaleString('es-MX')}`}</p>
+          <span className='mr-2 uppercase font-extrabold text-sm'>Precio:</span>
+          <p className='font-extrabold text-lg md:text-2xl'>{`$ ${tour.price.toLocaleString('es-MX')}`}</p>
           <p className='text-primary font-extrabold text-xs'>x Persona</p>
         </div>
         <a href='https://api.whatsapp.com/send/?phone=573023698461&text&type=phone_number&app_absent=0' target='_blank' className='flex h-10 tracking-wide
