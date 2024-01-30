@@ -13,16 +13,16 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const slideImages = [
   {
-    url: '/images/img1.jpg',
-    caption: 'Slide 1'
-  },
-  {
-    url: '/images/img2.jpeg',
-    caption: 'Slide 2'
-  },
-  {
     url: '/images/img3.jpg',
-    caption: 'Slide 3'
+    caption: 'Imagen de Mural C13'
+  },
+  {
+    url: '/images/img2.jpg',
+    caption: 'Imagen del parque de las luces'
+  },
+  {
+    url: '/images/img5.jpg',
+    caption: 'Imagen de Mural C13 mujer'
   },
 ];
 

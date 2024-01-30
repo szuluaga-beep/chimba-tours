@@ -9,7 +9,7 @@ interface Props {
 
 const Tour: FC<Props> = ({ tour }) => {
   return (
-    <div key={tour.id} className='w-full shadow-2xl rounded-lg p-3  cursor-pointer' id='tours'>
+    <div key={tour.id} className='w-full shadow-2xl rounded-lg p-3  cursor-pointer hover:scale-105' id='tours'>
       <Image
         className='rounded-lg hover:'
         src={`/images/${tour.image}`}
@@ -41,12 +41,12 @@ const Tour: FC<Props> = ({ tour }) => {
         }
 
       </ul>
-      <div className='my-2 flex justify-between flex-col md:flex-row items-center'>
+      <div className='my-2 flex gap-2 flex-col items-center md:flex-row justify-between p-4'>
         <div className='flex items-center gap-2 '>
 
           <span className='mr-2 uppercase font-extrabold'>Precio:</span>
-          <p className='font-extrabold text-2xl'>{`$ ${tour.price}`}</p>
-          <p className='text-primary font-extrabold text-2xl'>COP</p>
+          <p className='font-extrabold text-xl md:text-2xl'>{`$ ${tour.price.toLocaleString('es-MX')}`}</p>
+          <p className='text-primary font-extrabold text-xs'>x Persona</p>
         </div>
         <a href='https://api.whatsapp.com/send/?phone=573023698461&text&type=phone_number&app_absent=0' target='_blank' className='flex h-10 tracking-wide
                             uppercase items-center rounded-lg bg-primary text-black px-4 text-sm font-bold  transition-colors hover:bg-black hover:text-primary'>
