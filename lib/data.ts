@@ -15,21 +15,25 @@ export const dataTours: ITours[] = [
                 nameIncluded: "Hidratación"
             },
             {
-                idIncluded: 2,
+                idIncluded: 3,
                 nameIncluded: "Historia de transformación de la Comuna 13"
             },
             {
-                idIncluded: 3,
+                idIncluded: 4,
                 nameIncluded: "Show de baile"
 
             },
             {
-                idIncluded: 4,
+                idIncluded: 5,
                 nameIncluded: "Visita a galerias de arte, museo y miradores"
             },
             {
-                idIncluded: 5,
+                idIncluded: 2,
                 nameIncluded: "Crema (helado) de frutas"
+            },
+            {
+                idIncluded: 6,
+                nameIncluded: "Shows de freestyle"
             },
 
         ]
@@ -48,16 +52,16 @@ export const dataTours: ITours[] = [
             },
             {
                 idIncluded: 2,
-                nameIncluded: "Historia de transformación de la Comuna 13"
+                nameIncluded: "Visita a la Plaza Botero"
             },
             {
                 idIncluded: 3,
-                nameIncluded: "Show de baile"
+                nameIncluded: "Visita al Palacio Nacional"
 
             },
             {
                 idIncluded: 4,
-                nameIncluded: "Visita a galerias de arte, museo y miradores"
+                nameIncluded: "Visita al parque de las luces"
             },
             {
                 idIncluded: 5,
