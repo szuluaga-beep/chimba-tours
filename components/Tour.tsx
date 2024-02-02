@@ -41,7 +41,7 @@ const Tour: FC<Props> = ({ tour }) => {
         }
 
       </ul>
-      <div className='my-2 flex gap-2 flex-col items-center md:flex-row justify-between p-4'>
+      <div className='my-2 flex gap-2 flex-col items-center justify-between p-4'>
         <div className='flex items-center gap-2 '>
 
           <span className='mr-2 uppercase font-extrabold text-sm'>Precio:</span>
