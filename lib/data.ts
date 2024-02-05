@@ -5,7 +5,7 @@ export const dataTours: ITours[] = [
     {
         id: 1,
         name: "Graffi Tour",
-        price: 80000,
+        price: 70000,
         image: "img1.jpg",
         description: "Un lugar que renace de un pasado lleno de muerte y violencia, Hoy en día es uno de los barrios más visitados y turísticos de Medellín, gracias a esa gran historia de transformación de sus residentes. Porque hoy en día solo vas a conocer arte, cultura, gente con ganas de salir adelante en la vida SIMPLEMENTE TRANSFORMACIÓN",
         included: [
@@ -41,7 +41,7 @@ export const dataTours: ITours[] = [
     {
         id: 2,
         name: "city tour",
-        price: 250000,
+        price: 150000,
         image: "img4.jpg",
         description: "Ven y conoce la ciudad de la eterna primavera, hoy en día es un lugar favorito para los turistas por su sin igual hermosura, resiliencia, cultura y amabilidad de sus habitantes, y sus ganas de superación de quien vive aquí.",
         included: [
