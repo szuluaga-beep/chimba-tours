@@ -77,8 +77,8 @@ export const users: IUser[] = [
         id: 1,
         avatar: "Santiago.png",
         name: "Santiago Perez",
-        country:"United States",
-        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
+        country:"Costa Rica",
+        testimonial: "Muchas gracias Alejo @chimba_toursc13, un servicio de calidad súper completo, recomendado 100%… con mucha iniciativa, con mucha historia y sobre todo calidad humana.  pura vida mae!!! "
     },
     {
         id: 2,
