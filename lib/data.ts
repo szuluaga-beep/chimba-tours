@@ -85,13 +85,13 @@ export const users: IUser[] = [
         avatar: "Maria.png",
         name: "Maria Costa",
         country:"Perú",
-        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
+        testimonial: "ME ENCANTO la comuna 13, sin duda alguna volveré por allí muy pronto, ame su gente, su cultura, su gran historia de superación y sin duda alguna siempre nos sentimos muy bien con el guía Alejandro, sabe mucho acerca de la historia de la comuna y conoce mucho el lugar, los recomiendo hoy y siempre…"
     },
     {
         id: 3,
         avatar: "Vanesa.png",
         name: "Vanesa Upegui",
         country:"Colombia",
-        testimonial: "Proident dolor laboris magna Lorem do do nostrud do non cupidatat eu cillum cillum incididunt. Cillum et laboris cillum ad anim mollit eu fugiat. Ipsum dolore cupidatat cupidatat ea exercitation nostrud aute irure mollit dolor id. "
+        testimonial: `El guía Alejo es muy chévere, explica muy bien, nos llevo a unos lugares increíbles para tomarnos buenas fotografías y para tenerlas de recuerdo, Comuna 13, mi segunda casa en Colombia.❤`
     },
 ]
